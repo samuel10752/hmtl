@@ -1,12 +1,27 @@
 body{
     margin: 0;
+    width: 100vw;
+    height: 140vh;
+    background:url(https://img.freepik.com/vetores-gratis/laptop-com-icone-de-codigo-isometrico-de-programa-desenvolvimento-de-software-e-aplicacoes-de-programacao-neon-escuro_39422-971.jpg?size=626&ext=jpg);
+    background-size: cover;
 }
 
-#container {
-    width: 100vw;
-    height: 100vh;
-    background:url(https://img.freepik.com/fotos-gratis/telas-de-computador-executando-codigo-de-programacao-em-escritorio-de-agencia-de-desenvolvimento-de-software-vazio-e-computadores-analisando-algoritmos-de-dados-em-segundo-plano-computacao-em-nuvem-de-servidores-de-rede-neural-na-sala-de-dados_482257-33353.jpg?t=st=1657031269~exp=1657031869~hmac=9acf936cf8e977d9250a16c7b7220627536b47dbeca45adfd53905477253626f&w=1480);
-    background-size: cover;
+.social-media-container {
+    width: 50px;
+    display: block;
+    background-color: rgb(155, 148, 151);
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 120px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    z-index: 99999
+}
+
+.social-media-container div {
+    padding: 5px;
 }
 
 #imagem{
@@ -31,9 +46,9 @@ body{
 }
 
 #cabecalho-quatro{
-    color: rgb(187, 10, 98);
+    color: aliceblue;
 }
 
 #cabecalho-cinco{
-    color: rgb(187, 10, 98);
+    color: aliceblue;
 }
