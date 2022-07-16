@@ -15,8 +15,10 @@ body{
   height: 800px;
   justify-content: center;
   align-items: center;
-  
+
 }
+
+
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
 
 .person {
@@ -25,7 +27,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 800px;
-  height: 650px;
+  height: 500px;
 }
 .container {
   border-radius: 50%;
@@ -182,7 +184,7 @@ a:visited {
 .p{
   position: absolute;
   top: 600px;
-  left: 100px;
+  left: 10px;
   Color: white;
   font-family: arial;
   font-size: 14px;
@@ -263,8 +265,8 @@ h2 {
     position: relative;
     width: 1500px;
     font-size: 100px;
-    top: 260px;
-    right: 45px;
+    top: 400px;
+    right: 80px;
     font-family: Helvetica;
     line-height: 1.06;
     letter-spacing: -0.02em;
@@ -274,7 +276,7 @@ h2 {
   .mask {
     height: 100px;
     position: relative;
-    top: 35px;
+    top: 10px;
     right: 500px;
     overflow: hidden;
     margin-top: var(--offset);
@@ -324,6 +326,7 @@ h2 {
 
   h1{
     font-size: 60px;
+    color: #ca6060;
   }
 
   h3 {
@@ -331,3 +334,49 @@ h2 {
   font-family: arial;
   font-style: italic;
   }
+
+
+
+.frame {
+  position: absolute;
+  top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 350px;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001;
+  transition: box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+  border-radius: 10px;
+}
+
+.btn {
+  height: 35px;
+  width: 35px;
+  border-radius: 3px;
+  background: #e0e5ec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001;
+  transition: box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+  font-size: 16px;
+  color: rgba(42, 52, 84, 1);
+  text-decoration: none;
+}
+.btn:active {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+}
