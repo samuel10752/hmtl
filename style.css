@@ -354,7 +354,7 @@ h2 {
 .btn {
   height: 50px;
   width: 50px;
-  
+  border-radius: 50px;
   background: #fdfdfd;
   display: flex;
   flex-direction: column;
